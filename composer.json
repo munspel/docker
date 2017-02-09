@@ -1,0 +1,19 @@
+{
+    "name": "munspel/docker",
+    "description": "Test docker APP",
+    "require": {
+        "sofa/eloquence": "^5.3"
+    },
+    "authors": [
+        {
+            "name": "Anddy Lisnayk",
+            "email": "munspel@ukr.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Docker\\": "src/"
+        }
+    }
+}
